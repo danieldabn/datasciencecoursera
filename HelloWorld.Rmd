@@ -1,0 +1,35 @@
+---
+title: "HelloWorld"
+author: "danieldab"
+date: "9/4/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is a R Markdown
+
+This document is a R Markdown uploaded to GitHub so I can share it with other data scientists easily. 
+
+Is important to remember the *cheatcodes* for **highlighting** texts.
+
+Also, in this type of documents you can put **chunks of code** plus text, to keep track of comments and instructions. 
+
+Some chunks are the followings:
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
